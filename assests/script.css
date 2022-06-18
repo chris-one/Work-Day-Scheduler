@@ -1,9 +1,5 @@
-
 * {
-    background: #F3904F;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #53a8e8;
 }
 
 h1 {
@@ -24,18 +20,15 @@ u {
 }
 
 .container {
-    
-    color: aliceblue;
-    margin: 20px;
-    background-origin: padding-box;
-    padding: 20px;
+    height: 300px;
+    width: 100%;
+    background: whitesmoke;
 }
 
-
-
-
-#caliTime-1 {
+.dayContainer {
+    display: flex;
     border-style: 100px;
     margin: 100px;
-
+    color: pink;
+    
 }
